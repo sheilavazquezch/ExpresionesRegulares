@@ -1,0 +1,23 @@
+p {
+    font-family:  "Calibri Light";
+    font-size: 18px;
+}
+h1 {
+    margin: 5px;
+    font-family: "Calisto MT";
+    text-decoration: underline;
+}
+h2, h3 {
+    font-family: "Calisto MT";
+    font-size: 20px;
+    color: black;
+}
+html {
+    background-color: lightpink;
+    text-align: center;
+}
+button{
+    color: #ffffff;
+    background-color: #1883ba;
+    font-family: "Times New Roman";
+}

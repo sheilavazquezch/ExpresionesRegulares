@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expresiones Regulares</title>
+    <script type="text/javascript" src="EjercicioRegEx.js"></script>
+    <link rel="stylesheet" href="EjercicioRegEx.css">
+</head>
+<body>
+<h1><i>Validación con Expresiones Regulares</i></h1>
+<!-- Creación del formulario -->
+<form action="" onsubmit="return validar()">
+    <!-- Reglas del formato de HH:MM:SS -->
+    <p> <strong>Reglas:</strong> <br> - 1 Dia = 24 horas  <br> - 1 hora = 60 Minutos <br> - 1 minuto = 60 Segundos
+    <br> <strong>NOTA: </strong> Introduzca cada dos numeros ":" para separar horas, minutos y segundos. Por ejemplo: "10:18:50".</p>
+    <h2>Ingrese horas, minutos y segundos:</h2>
+    <!-- Creación de input donde el usuario ingresara los datos -->
+    <input type="text" id="valHorario" placeholder="HH:MM:SS">
+
+    <p><strong>Reglas:</strong> <br> - Sólo puede estar formado por letras, números y los símbolos $ (dólar) y _ (guión
+        bajo). <br> - El primer carácter no puede ser un número. <br> <strong>NOTA: </strong> El nombre de un idenficador pero que
+    no empiece con numeros. Por ejemplo: "_$A8b".</p>
+    <h3>Ingrese identificador:</h3>
+    <!-- Creación de input donde el usuario ingresara los datos -->
+    <input type="text" id="valIdentificador" placeholder="Nombre Identificador">
+    <br>
+    <br>
+    <!-- Se mandaran los datos a la funcion validar -->
+    <button type="submit">Validar</button>
+</form>
+</body>
+</html>
+
